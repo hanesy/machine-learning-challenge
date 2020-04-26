@@ -79,13 +79,13 @@ For classification reports of the non-hypertuned models, please see each individ
 #### [Logistic Model](logistic_model.ipynb)
 **Test Scores**
 | Logistic | MinMax Scaler | Standard Scaler |
-| ----------- | ----------- |----------- |
+| ----------- | -----------: |-----------: |
 | Non-hypertuned | 0.816 | 0.829 |
 | Hypertuned | 0.828 | 0.834 |
 
 **Hypertuned Model Outcome Precision**
 | Logistic | MinMax Scaler | Standard Scaler |
-| ----------- | ----------- |----------- |
+| ----------- | -----------: |-----------: |
 | CANDIDATE | 0.68 | 0.69 |
 | CONFIRMED | 0.66 | 0.66 |
 | FALSE POSITIVE | 0.99 | 0.99 |
@@ -94,13 +94,13 @@ For classification reports of the non-hypertuned models, please see each individ
 #### [Random Forest Classifer Model](Forests_Model.ipynb)
 **Test Scores**
 | RFC | MinMax Scaler | Standard Scaler |
-| ----------- | ----------- |----------- |
+| ----------- | -----------: |-----------: |
 | Non-hypertuned | 0.907 | 0.908 |
 | Hypertuned | 0.904 | 0.906 |
 
-#### Hypertuned Random Forest Classifier Model Outcome Precision
+#### Hypertuned Model Outcome Precision
 | RFC | MinMax Scaler | Standard Scaler |
-| ----------- | ----------- |----------- |
+| ----------- | -----------: |-----------: |
 | CANDIDATE | 0.84 | 0.84 |
 | CONFIRMED | 0.81 | 0.81 |
 | FALSE POSITIVE | 0.98 | 0.98 |
@@ -109,13 +109,13 @@ For classification reports of the non-hypertuned models, please see each individ
 #### [Support vector machine classifier Model](SVC_model.ipynb)
 **Test Scores**
 | SVC | MinMax Scaler | Standard Scaler |
-| ----------- | ----------- |----------- |
+| ----------- | -----------: |-----------: |
 | Non-hypertuned | 0.812 | 0.824 |
 | Hypertuned | 0.802 | 0.832 |
 
 **Hypertuned Model Outcome Precision**
 | SVC | MinMax Scaler | Standard Scaler |
-| ----------- | ----------- |----------- |
+| ----------- | -----------: |-----------: |
 | CANDIDATE | 0.66 | 0.70 |
 | CONFIRMED | 0.59 | 0.66 |
 | FALSE POSITIVE | 0.99 | 0.99 |
@@ -124,13 +124,13 @@ For classification reports of the non-hypertuned models, please see each individ
 #### [K-nearest neighbors classifier Model](KNN_Model.ipynb)
 **Test Scores**
 | KNN | MinMax Scaler | Standard Scaler |
-| ----------- | ----------- |----------- |
+| ----------- | -----------: |-----------: |
 | Non-hypertuned | 0.791 | 0.804 |
 | Hypertuned | 0.795 | 0.815 |
 
 **Hypertuned Model Outcome Precision**
 | KNN | MinMax Scaler | Standard Scaler |
-| ----------- | ----------- |----------- |
+| ----------- | -----------: |-----------: |
 | CANDIDATE | 0.62 | 0.66 |
 | CONFIRMED | 0.59 | 0.63 |
 | FALSE POSITIVE | 0.99 | 0.98 |
