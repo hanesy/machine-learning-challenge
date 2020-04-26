@@ -69,8 +69,9 @@ The following sections show the overall scores for hypertuned and non-hypertuned
 
 For details on the hypertuned models' classification reports (including recall, f-1 score, etc.), see [Model_Comparison](Model_Comparison.ipynb) notebook. 
 For classification reports of the non-hypertuned models, please see each individual notebook.
+---
 
-#### Logistic Model
+#### [Logistic Model](logistic_model.ipynb)
 **Test Scores**
 | Logistic | MinMax Scaler | Standard Scaler |
 | ----------- | ----------- |----------- |
@@ -85,14 +86,14 @@ For classification reports of the non-hypertuned models, please see each individ
 | FALSE POSITIVE | 0.99 | 0.99 |
 ---
 
-#### Random Forest Classifier Model
+#### [Random Forest Classifer Model](Forests_Model.ipynb)
 **Test Scores**
 | RFC | MinMax Scaler | Standard Scaler |
 | ----------- | ----------- |----------- |
 | Non-hypertuned | 0.907 | 0.908 |
 | Hypertuned | 0.904 | 0.906 |
 
-#### Hypertuned Random Forest Classifier Model Precision
+#### Hypertuned Random Forest Classifier Model Outcome Precision
 | RFC | MinMax Scaler | Standard Scaler |
 | ----------- | ----------- |----------- |
 | CANDIDATE | 0.84 | 0.84 |
@@ -100,7 +101,7 @@ For classification reports of the non-hypertuned models, please see each individ
 | FALSE POSITIVE | 0.98 | 0.98 |
 ---
 
-#### Support Vector Machine Classifier Model
+#### [Support vector machine classifier Model](SVC_model.ipynb)
 **Test Scores**
 | SVC | MinMax Scaler | Standard Scaler |
 | ----------- | ----------- |----------- |
@@ -115,7 +116,7 @@ For classification reports of the non-hypertuned models, please see each individ
 | FALSE POSITIVE | 0.99 | 0.99 |
 ---
 
-#### K-Nearest Neighbors Classifier Model
+#### [K-nearest neighbors classifier Model](KNN_Model.ipynb)
 **Test Scores**
 | KNN | MinMax Scaler | Standard Scaler |
 | ----------- | ----------- |----------- |
@@ -132,8 +133,4 @@ For classification reports of the non-hypertuned models, please see each individ
 
 ## Authors
 
-* **Heain Yee** - [Hanesy](https://github.com/hanesy), [LinkedIn](https://www.linkedin.com/in/heain-yee-82105818/)
-
-## Acknowledgments
-
-As guided by 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+* **Heain Yee** - [Github](https://github.com/hanesy), [LinkedIn](https://www.linkedin.com/in/heain-yee-82105818/)
