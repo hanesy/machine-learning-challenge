@@ -66,10 +66,11 @@ As a final step, I compile the scores for the hypertuned models and observe the 
 
 ### Details for Each Model
 #### Logistic Model
-| Syntax | Description | Description |
-| --- | ----------- |----------- |
-| Header | Title |Title |
-| Paragraph | Text |xt |
+**Test Scores**
+| Model Type | Minmax Scaler | Standard Scaler |
+| ----------- | ----------- |----------- |
+| Non-hypertuned | 0.816 | 0.829 |
+| Hypertuned | 0.828 | 0.834 |
 
 #### Random Forests Model
 #### K-Nearest Neighbors Classifier Model
