@@ -65,42 +65,61 @@ As a final step, I compile the scores for the hypertuned models and observe the 
 3. Most models showed improvement from hypertuning. 
 
 ### Details for Each Model
-#### Logistic Model Test Scores
+#### Logistic Model
+**Test Scores**
 | Logistic | MinMax Scaler | Standard Scaler |
 | ----------- | ----------- |----------- |
 | Non-hypertuned | 0.816 | 0.829 |
 | Hypertuned | 0.828 | 0.834 |
 
-#### Hypertuned Logistic Model Precision
+**Hypertuned Model Outcome Precision**
 | Logistic | MinMax Scaler | Standard Scaler |
 | ----------- | ----------- |----------- |
 | CANDIDATE | 0.68 | 0.69 |
 | CONFIRMED | 0.66 | 0.66 |
 | FALSE POSITIVE | 0.99 | 0.99 |
 
-#### Random Forest Classifier Model Test Scores
+#### Random Forest Classifier Model
+**Test Scores**
 | RFC | MinMax Scaler | Standard Scaler |
 | ----------- | ----------- |----------- |
 | Non-hypertuned | 0.907 | 0.908 |
 | Hypertuned | 0.904 | 0.906 |
 
 #### Hypertuned Random Forest Classifier Model Precision
+| RFC | MinMax Scaler | Standard Scaler |
+| ----------- | ----------- |----------- |
+| CANDIDATE | 0.84 | 0.84 |
+| CONFIRMED | 0.81 | 0.81 |
+| FALSE POSITIVE | 0.98 | 0.98 |
 
-#### Support Vector Machine Classifier Model Test Scores
+#### Support Vector Machine Classifier Model
+**Test Scores**
 | SVC | MinMax Scaler | Standard Scaler |
 | ----------- | ----------- |----------- |
 | Non-hypertuned | 0.812 | 0.824 |
 | Hypertuned | 0.802 | 0.832 |
 
-#### Hypertuned Support Vector Machine Classifier Model Precision
+**Hypertuned Model Outcome Precision**
+| SVC | MinMax Scaler | Standard Scaler |
+| ----------- | ----------- |----------- |
+| CANDIDATE | 0.66 | 0.70 |
+| CONFIRMED | 0.59 | 0.66 |
+| FALSE POSITIVE | 0.99 | 0.99 |
 
-#### K-Nearest Neighbors Classifier Model Test Scores
+#### K-Nearest Neighbors Classifier Model
+**Test Scores**
 | KNN | MinMax Scaler | Standard Scaler |
 | ----------- | ----------- |----------- |
 | Non-hypertuned | 0.791 | 0.804 |
 | Hypertuned | 0.795 | 0.815 |
 
-#### Hypertuned K-Nearest Neighbors Classifier Precision
+**Hypertuned Model Outcome Precision**
+| KNN | MinMax Scaler | Standard Scaler |
+| ----------- | ----------- |----------- |
+| CANDIDATE | 0.62 | 0.66 |
+| CONFIRMED | 0.59 | 0.63 |
+| FALSE POSITIVE | 0.99 | 0.98 |
 
 
 ## Authors
