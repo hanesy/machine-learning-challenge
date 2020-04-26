@@ -10,15 +10,15 @@ Overall, I was interested in answering the question:
 
 However, I had a couple smaller curiosities I wanted to learn from each of the models.
 * What is the difference between using standard scaler and minmax scaler, if any?
-* What is the improvement from hypertraining the model, if any?
+* What is the improvement from hypertuning the model, if any?
 
 ## Getting Started
 
 I explored four different machine learning models, and each of them are contained in individual notebooks. 
 * [Logistic Model](logistic_model.ipynb)
 * [Random Forest Classifer Model](Forests_Model.ipynb)
-* [K-nearest neighbors classifier Model](KNN_Model.ipynb)
 * [Support vector machine classifier Model](SVC_model.ipynb)
+* [K-nearest neighbors classifier Model](KNN_Model.ipynb)
 
 **The comparative summary of the hyper-tuned models is shown [HERE](Model_Comparison.ipynb).**
 
@@ -57,10 +57,10 @@ As a final step, I compile the scores for the hypertuned models and observe the 
 **As mentioned in the beginning of this README, I had 3 research questions.**
 1. Which model best fits the data?
 2. What is the difference between using standard scaler and minmax scaler, if any?
-3. What is the improvement from hypertraining the model?
+3. What is the improvement from hypertuning the model?
 
 **Answers**
-1. In conclusion, rfc (random forest classifer) with standard scaler has the best fit to the data from observing the model score. 
+1. In conclusion, hypertuned rfc (random forest classifer) with standard scaler has the best fit to the data from observing the model score. Classification report of this model also has the best precision of outcomes.
 2. There was a difference between using a standard or minmax scaler, but the difference was not very big. 
 3. Most models showed improvement from hypertuning. 
 
@@ -71,17 +71,20 @@ As a final step, I compile the scores for the hypertuned models and observe the 
 | Non-hypertuned | 0.816 | 0.829 |
 | Hypertuned | 0.828 | 0.834 |
 
+#### Hypertuned Logistic Model Precision
+| Logistic | MinMax Scaler | Standard Scaler |
+| ----------- | ----------- |----------- |
+| CANDIDATE | 0.68 | 0.69 |
+| CONFIRMED | 0.66 | 0.66 |
+| FALSE POSITIVE | 0.99 | 0.99 |
+
 #### Random Forest Classifier Model Test Scores
 | RFC | MinMax Scaler | Standard Scaler |
 | ----------- | ----------- |----------- |
 | Non-hypertuned | 0.907 | 0.908 |
-| Hypertuned | 0.903 | 0.906 |
+| Hypertuned | 0.904 | 0.906 |
 
-#### K-Nearest Neighbors Classifier Model Test Scores
-| KNN | MinMax Scaler | Standard Scaler |
-| ----------- | ----------- |----------- |
-| Non-hypertuned | 0.791 | 0.804 |
-| Hypertuned | 0.795 | 0.815 |
+#### Hypertuned Random Forest Classifier Model Precision
 
 #### Support Vector Machine Classifier Model Test Scores
 | SVC | MinMax Scaler | Standard Scaler |
@@ -89,11 +92,15 @@ As a final step, I compile the scores for the hypertuned models and observe the 
 | Non-hypertuned | 0.812 | 0.824 |
 | Hypertuned | 0.802 | 0.832 |
 
-* Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
+#### Hypertuned Support Vector Machine Classifier Model Precision
 
-Summary table here?
+#### K-Nearest Neighbors Classifier Model Test Scores
+| KNN | MinMax Scaler | Standard Scaler |
+| ----------- | ----------- |----------- |
+| Non-hypertuned | 0.791 | 0.804 |
+| Hypertuned | 0.795 | 0.815 |
 
-### Section for each model.
+#### Hypertuned K-Nearest Neighbors Classifier Precision
 
 
 ## Authors
