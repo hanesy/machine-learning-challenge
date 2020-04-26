@@ -65,6 +65,11 @@ As a final step, I compile the scores for the hypertuned models and observe the 
 3. Most models showed improvement from hypertuning. 
 
 ### Details for Each Model
+The following sections show the overall scores for hypertuned and non-hypertuned models and precision for outcomes for ONLY hypertuned models. 
+
+For details on the hypertuned models' classification reports (including recall, f-1 score, etc.), see [Model_Comparison](Model_Comparison.ipynb) notebook. 
+For classification reports of the non-hypertuned models, please see each individual notebook.
+
 #### Logistic Model
 **Test Scores**
 | Logistic | MinMax Scaler | Standard Scaler |
@@ -78,6 +83,7 @@ As a final step, I compile the scores for the hypertuned models and observe the 
 | CANDIDATE | 0.68 | 0.69 |
 | CONFIRMED | 0.66 | 0.66 |
 | FALSE POSITIVE | 0.99 | 0.99 |
+---
 
 #### Random Forest Classifier Model
 **Test Scores**
@@ -92,6 +98,7 @@ As a final step, I compile the scores for the hypertuned models and observe the 
 | CANDIDATE | 0.84 | 0.84 |
 | CONFIRMED | 0.81 | 0.81 |
 | FALSE POSITIVE | 0.98 | 0.98 |
+---
 
 #### Support Vector Machine Classifier Model
 **Test Scores**
@@ -106,6 +113,7 @@ As a final step, I compile the scores for the hypertuned models and observe the 
 | CANDIDATE | 0.66 | 0.70 |
 | CONFIRMED | 0.59 | 0.66 |
 | FALSE POSITIVE | 0.99 | 0.99 |
+---
 
 #### K-Nearest Neighbors Classifier Model
 **Test Scores**
