@@ -74,6 +74,7 @@ The following sections show the overall scores for hypertuned and non-hypertuned
 
 For details on the hypertuned models' classification reports (including recall, f-1 score, etc.), see [Model_Comparison](Model_Comparison.ipynb) notebook. 
 For classification reports of the non-hypertuned models, please see each individual notebook.
+
 ---
 
 #### [Logistic Model](logistic_model.ipynb)
