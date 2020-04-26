@@ -29,7 +29,7 @@ The libraries I used are as follows:
 * joblib
 * numpy
 * pandas
-* warnings
+* matplotlib
 
 All notebooks contain a pip install cells for joblib and sklearn that can be uncommented to make sure the version on your machine is up to date.
 
