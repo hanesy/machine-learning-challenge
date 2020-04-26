@@ -16,7 +16,7 @@ However, I had a couple smaller curiosities I wanted to learn from each of the m
 
 I explored four different machine learning models, and each of them are contained in individual notebooks. 
 * [Logistic Model](logistic_model.ipynb)
-* [Random Forests Model](Forests_Model.ipynb)
+* [Random Forest Classifer Model](Forests_Model.ipynb)
 * [K-nearest neighbors classifier Model](KNN_Model.ipynb)
 * [Support vector machine classifier Model](SVC_model.ipynb)
 
@@ -65,22 +65,25 @@ As a final step, I compile the scores for the hypertuned models and observe the 
 3. Most models showed improvement from hypertuning. 
 
 ### Details for Each Model
-#### Logistic Model
-**Test Scores**
-| Model Type | MinMax Scaler | Standard Scaler |
+#### Logistic Model Test Scores
+| Logistic | MinMax Scaler | Standard Scaler |
 | ----------- | ----------- |----------- |
 | Non-hypertuned | 0.816 | 0.829 |
 | Hypertuned | 0.828 | 0.834 |
 
-#### Random Forests Model
-**Test Scores**
-| Model Type | MinMax Scaler | Standard Scaler |
+#### Random Forest Classifier Model Test Scores
+| RFC | MinMax Scaler | Standard Scaler |
 | ----------- | ----------- |----------- |
 | Non-hypertuned | 0.907 | 0.908 |
 | Hypertuned | 0.903 | 0.906 |
 
-#### K-Nearest Neighbors Classifier Model
-#### Support Vector Machine Classifier Model
+#### K-Nearest Neighbors Classifier Model Test Scores
+| KNN | MinMax Scaler | Standard Scaler |
+| ----------- | ----------- |----------- |
+| Non-hypertuned | 0.791 | 0.804 |
+| Hypertuned | 0.795 | 0.815 |
+
+#### Support Vector Machine Classifier Model Test Scores
 
 
 * Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
