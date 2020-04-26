@@ -11,7 +11,7 @@ I explored four different machine learning models, and each of them are containe
 * [K-nearest neighbors classifier Model](KNN_Model.ipynb)
 * [Support vector machine classifier Model](SVC_model.ipynb)
 
-[b] The comparative of the hyper-tuned models is shown [HERE](Model_Comparison.ipynb). [/b]
+**The comparative of the hyper-tuned models is shown [HERE](Model_Comparison.ipynb).**
 
 ### Prerequisites
 
@@ -44,11 +44,16 @@ The hypertuned models for the two scaler methods are stored in this [folder](mod
 ### Comparison
 As a final step, I compile the scores for the hypertuned models and observe the best-fit model in this [notebook](Model_Comparison.ipynb). 
 
-## Reporting
+## Final Report
 
-For each of the models, I asked the following questions:
+### Research Questions
+Overall, I was interested in answering the question:
+**Which model best fits the data?**
+
+However, I had a smaller research questions I wanted to answer from each of the models.
 * What is the difference between using standard scaler and minmax scaler, if any?
-* What is the improvement 
+* What is the improvement from hypertraining the model?
+
 
 From observing the model scores, rfc (random forest classifer) with standard scaler has the best fit to the data.
 
