@@ -5,9 +5,10 @@ Over a period of nine years in deep space, the NASA Kepler space telescope has b
 
 ## Research Questions
 Overall, I was interested in answering the question:
+
 **Which model best fits the data?**
 
-However, I had a smaller research questions I wanted to answer from each of the models.
+However, I had a couple smaller curiosities I wanted to learn from each of the models.
 * What is the difference between using standard scaler and minmax scaler, if any?
 * What is the improvement from hypertraining the model, if any?
 
@@ -52,7 +53,7 @@ The hypertuned models for the two scaler methods are stored in this [folder](mod
 ### Comparison
 As a final step, I compile the scores for the hypertuned models and observe the best-fit model in this [notebook](Model_Comparison.ipynb). 
 
-## Research Questions and Answers
+## Research Answers
 **As mentioned in the beginning of this README, I had 3 research questions.**
 1. Which model best fits the data?
 2. What is the difference between using standard scaler and minmax scaler, if any?
@@ -63,13 +64,16 @@ As a final step, I compile the scores for the hypertuned models and observe the 
 2. There was a difference between using a standard or minmax scaler, but the difference was not very big. 
 3. Most models showed improvement from hypertuning. 
 
-I will provide detailed 
-### Logistic Model
-In the non-hypertuned 
+### Details for Each Model
+#### Logistic Model
+| Syntax | Description | Description |
+| --- | ----------- |----------- |
+| Header | Title |Title |
+| Paragraph | Text |xt |
 
-### Random Forests Model
-### K-Nearest Neighbors Classifier Model
-### Support Vector Machine Classifier Model
+#### Random Forests Model
+#### K-Nearest Neighbors Classifier Model
+#### Support Vector Machine Classifier Model
 
 
 * Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
