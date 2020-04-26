@@ -67,12 +67,18 @@ As a final step, I compile the scores for the hypertuned models and observe the 
 ### Details for Each Model
 #### Logistic Model
 **Test Scores**
-| Model Type | Minmax Scaler | Standard Scaler |
+| Model Type | MinMax Scaler | Standard Scaler |
 | ----------- | ----------- |----------- |
 | Non-hypertuned | 0.816 | 0.829 |
 | Hypertuned | 0.828 | 0.834 |
 
 #### Random Forests Model
+**Test Scores**
+| Model Type | MinMax Scaler | Standard Scaler |
+| ----------- | ----------- |----------- |
+| Non-hypertuned | 0.907 | 0.908 |
+| Hypertuned | 0.903 | 0.906 |
+
 #### K-Nearest Neighbors Classifier Model
 #### Support Vector Machine Classifier Model
 
