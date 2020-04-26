@@ -3,6 +3,14 @@
 
 Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system. 
 
+## Research Questions
+Overall, I was interested in answering the question:
+**Which model best fits the data?**
+
+However, I had a smaller research questions I wanted to answer from each of the models.
+* What is the difference between using standard scaler and minmax scaler, if any?
+* What is the improvement from hypertraining the model, if any?
+
 ## Getting Started
 
 I explored four different machine learning models, and each of them are contained in individual notebooks. 
@@ -11,7 +19,7 @@ I explored four different machine learning models, and each of them are containe
 * [K-nearest neighbors classifier Model](KNN_Model.ipynb)
 * [Support vector machine classifier Model](SVC_model.ipynb)
 
-**The comparative of the hyper-tuned models is shown [HERE](Model_Comparison.ipynb).**
+**The comparative summary of the hyper-tuned models is shown [HERE](Model_Comparison.ipynb).**
 
 ### Prerequisites
 
@@ -44,19 +52,18 @@ The hypertuned models for the two scaler methods are stored in this [folder](mod
 ### Comparison
 As a final step, I compile the scores for the hypertuned models and observe the best-fit model in this [notebook](Model_Comparison.ipynb). 
 
-## Final Report
+## Research Questions and Answers
+**As mentioned in the beginning of this README, I had 3 research questions.**
+1. Which model best fits the data?
+2. What is the difference between using standard scaler and minmax scaler, if any?
+3. What is the improvement from hypertraining the model?
 
-### Research Questions
-Overall, I was interested in answering the question:
-**Which model best fits the data?**
+**Answers**
+1. In conclusion, rfc (random forest classifer) with standard scaler has the best fit to the data from observing the model score. 
+2. There was a difference between using a standard or minmax scaler, but the difference was not very big. 
+3. Most models showed improvement from hypertuning. 
 
-However, I had a smaller research questions I wanted to answer from each of the models.
-* What is the difference between using standard scaler and minmax scaler, if any?
-* What is the improvement from hypertraining the model?
-
-
-From observing the model scores, rfc (random forest classifer) with standard scaler has the best fit to the data.
-
+I will provide detailed 
 ### Logistic Model
 In the non-hypertuned 
 
