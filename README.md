@@ -11,7 +11,7 @@ I explored four different machine learning models, and each of them are containe
 * [K-nearest neighbors classifier Model](KNN_Model.ipynb)
 * [Support vector machine classifier Model](SVC_model.ipynb)
 
-The comparison of the hyper-tuned models is shown [here](Model_Comparison.ipynb).
+[b] The comparative of the hyper-tuned models is shown [HERE](Model_Comparison.ipynb). [/b]
 
 ### Prerequisites
 
@@ -24,7 +24,7 @@ The libraries I used are as follows:
 
 All notebooks contain a pip install cells for joblib and sklearn that can be uncommented to make sure the version on your machine is up to date.
 
-## Data Cleaning, Pre-Processing, and Modeling
+## Data Cleaning and Modeling
 ### Data Cleaning
 In each of the notebooks, I clean the source [data](data) to drop null values and remove the error columns. 
 
@@ -32,6 +32,8 @@ In each of the notebooks, I clean the source [data](data) to drop null values an
 The "y" variable for machine learning is "koi_disposition," which classifies each candidate as "confirmed", "candidate", or "false positive."  and "x" variables are the remaining columns in the dataset. The definitions of the columns are provided at the end of each model notebook, or it can be obtained at [Kaggle](https://www.kaggle.com/nasa/kepler-exoplanet-search-results) or the [data dictionary](https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html).
 
 From the cleaned dataframe, I create a stratified train test split from the data with random_state=42.
+
+I scale the data ("x" variables) and train the model.
 
 ### Modeling
 1. For each model, I train the model with two types of scalers (standard and min max), and observe the difference in scores.
