@@ -6,9 +6,9 @@ Over a period of nine years in deep space, the NASA Kepler space telescope has b
 ## Research Questions
 Overall, I was interested in answering the question:
 
-**Which model best fits the data?**
+**Which machine learning model best fits the data?**
 
-However, I had a couple smaller curiosities I wanted to learn from each of the models.
+I also had a couple smaller curiosities I wanted to learn from each of the models.
 * What is the difference between using standard scaler and minmax scaler, if any?
 * What is the improvement from hypertuning the model, if any?
 
@@ -20,7 +20,7 @@ I explored four different machine learning models, and each of them are containe
 * [Support vector machine classifier Model](SVC_model.ipynb)
 * [K-nearest neighbors classifier Model](KNN_Model.ipynb)
 
-**The comparative summary of the hyper-tuned models is shown [HERE](Model_Comparison.ipynb).**
+**The comparative summary of the hyper-tuned models is in its own [NOTEBOOK](Model_Comparison.ipynb).**
 
 ### Prerequisites
 
@@ -38,7 +38,9 @@ All notebooks contain a pip install cells for joblib and sklearn that can be unc
 In each of the notebooks, I clean the source [data](data) to drop null values and remove the error columns. 
 
 ### Pre-Processing
-The "y" variable for machine learning is "koi_disposition," which classifies each candidate as "confirmed", "candidate", or "false positive."  and "x" variables are the remaining columns in the dataset. The definitions of the columns are provided at the end of each model notebook, or it can be obtained at [Kaggle](https://www.kaggle.com/nasa/kepler-exoplanet-search-results) or the [data dictionary](https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html).
+The "y" variable for machine learning is "koi_disposition," which classifies each candidate as "confirmed", "candidate", or "false positive."  
+
+The "x" variables are the remaining columns in the dataset. The definitions of the columns are provided at the end of each model notebook, or it can be obtained at [Kaggle](https://www.kaggle.com/nasa/kepler-exoplanet-search-results) or the [data dictionary](https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html).
 
 From the cleaned dataframe, I create a stratified train test split from the data with random_state=42.
 
@@ -46,12 +48,13 @@ I scale the data ("x" variables) and train the model.
 
 ### Modeling
 1. For each model, I train the model with two types of scalers (standard and min max), and observe the difference in scores.
-2. I also observe how much the model improves by hypertuning by some parameters. It would be interesting to note how much the best scores changes by tuning it to differently defined parameters, but is beyond the scope of this project.
+2. I also observe how much the model improves by hypertuning by some parameters. 
+(Sidenote: It would be interesting to note how much the best scores changes by tuning it to differently defined parameters, but is beyond the scope of this project.)
 
-The hypertuned models for the two scaler methods are stored in this [folder](models).
+The hypertuned models are saved and stored in this [folder](models).
 
 ### Comparison
-As a final step, I compile the scores for the hypertuned models and observe the best-fit model in this [notebook](Model_Comparison.ipynb). 
+As a final step, I compile the scores and classification reports for the hypertuned models and observe the best-fit model in this [notebook](Model_Comparison.ipynb). 
 
 ## Research Answers
 **As mentioned in the beginning of this README, I had 3 research questions.**
@@ -60,9 +63,11 @@ As a final step, I compile the scores for the hypertuned models and observe the 
 3. What is the improvement from hypertuning the model?
 
 **Answers**
-1. In conclusion, hypertuned rfc (random forest classifer) with standard scaler has the best fit to the data from observing the model score. Classification report of this model also has the best precision of outcomes.
+1. In conclusion, hypertuned rfc (random forest classifer) with standard scaler has the best fit to the data from observing the model score (0.91). Classification report of this model also has the best precision of outcomes.
 2. There was a difference between using a standard or minmax scaler, but the difference was not very big. 
 3. Most models showed improvement from hypertuning. 
+
+See the details in the sections below.
 
 ### Details for Each Model
 The following sections show the overall scores for hypertuned and non-hypertuned models and precision for outcomes for ONLY hypertuned models. 
