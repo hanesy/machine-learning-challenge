@@ -13,11 +13,11 @@ I explored four different machine learning models, and each of them are containe
 * [Support vector machine classifier Model](SVC_model.ipynb)
 
 ### Data Cleaning and Pre-Processing
-In each of the notebooks, I clean the source [data] (models/) to drop null values and remove the error columns. The "y" variable for machine learning is "koi_disposition", and "x" variables are the remaining columns in the dataset.
+In each of the notebooks, I clean the source [data](models) to drop null values and remove the error columns. The "y" variable for machine learning is "koi_disposition", and "x" variables are the remaining columns in the dataset.
 
 I create a stratified train test split from the data with random_state=42.
 
-In each of the notebooks, I explore two types of scalers (standard and minmax), and observe differences in model scores. The comparison is stored in its own [notebook] (Model_Comparison.ipynb).
+In each of the notebooks, I explore two types of scalers (standard and minmax), and observe differences in model scores. The comparison is stored in its own [notebook](Model_Comparison.ipynb).
 
 ### Prerequisites
 
