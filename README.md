@@ -2,13 +2,22 @@
 
 Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system. 
 
-<b> This project creates a machine learning models capable of classifying candidate exoplanets from the raw dataset. </b>
+<b> This project explores different machine learning models capable of classifying candidate exoplanets from the raw dataset. </b>
 
 ## Getting Started
 
-The final model is HERE.
-The other models are in its own notebook.
-* [Model Name](Link)
+I explored four different machine learning models, and each of them are contained in individual notebooks. 
+* [Logistic Model](logistic_model.ipynb)
+* [Random Forests Model](Forests_Model.ipynb)
+* [K-nearest neighbors classifier Model](KNN_Model.ipynb)
+* [Support vector machine classifier Model](SVC_model.ipynb)
+
+### Data Cleaning and Pre-Processing
+In each of the notebooks, I clean the source [data] (models/) to drop null values and remove the error columns. The "y" variable for machine learning is "koi_disposition", and "x" variables are the remaining columns in the dataset.
+
+I create a stratified train test split from the data with random_state=42.
+
+In each of the notebooks, I explore two types of scalers (standard and minmax), and observe differences in model scores. The comparison is stored in its own [notebook] (Model_Comparison.ipynb).
 
 ### Prerequisites
 
