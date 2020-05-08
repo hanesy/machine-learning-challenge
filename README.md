@@ -48,7 +48,7 @@ As a final step, I compile the scores and classification reports for the hypertu
 ## Which model best fits the data?
 hypertuned rfc (random forest classifer) with standard scaler has the best fit to the data from observing the model score (0.89). Classification report of this model also has the best precision of outcomes (.80 for "CONFIRMED").
 
-Most models showed improvement from hypertuning. 
+Hypertuning seems to have little impact on model scores. 
 
 See the details in the sections below.
 
@@ -68,7 +68,7 @@ For classification reports of the non-hypertuned models, please see each individ
 | Hypertuned | 0.89 |
 
 **Hypertuned Model Outcome Precision**
-| Y | Precision Scores |
+| Outcome | Precision Scores |
 | ----------- | -----------: |
 | CANDIDATE | 0.82 | 
 | CONFIRMED | 0.76 | 
@@ -83,7 +83,7 @@ For classification reports of the non-hypertuned models, please see each individ
 | Hypertuned | 0.90 | 
 
 #### Hypertuned Model Outcome Precision
-| Y | Precision Scores |
+| Outcome | Precision Scores |
 | ----------- | -----------: |
 | CANDIDATE | 0.86 | 
 | CONFIRMED | 0.80 | 
@@ -98,7 +98,7 @@ For classification reports of the non-hypertuned models, please see each individ
 | Hypertuned | 0.88 | 
 
 **Hypertuned Model Outcome Precision**
-| Y | Precision Scores | 
+| Outcome | Precision Scores | 
 | ----------- | -----------: |
 | CANDIDATE | 0.80 |
 | CONFIRMED | 0.76 | 
@@ -113,13 +113,13 @@ For classification reports of the non-hypertuned models, please see each individ
 | Hypertuned | 0.89 | 
 
 **Hypertuned Model Outcome Precision**
-| Y | Precision Scores | 
+| Outcome | Precision Scores | 
 | ----------- | -----------: |
 | CANDIDATE | 0.86 | 
 | CONFIRMED | 0.75 |
 | FALSE POSITIVE | 0.99 | 
 
 
-## Authors
+## Author
 
 * **Heain Yee** - [Github](https://github.com/hanesy), [LinkedIn](https://www.linkedin.com/in/heain-yee-82105818/)
