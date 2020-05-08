@@ -4,8 +4,6 @@
 Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system. 
 
 ## Research Questions
-Overall, I was interested in answering the question:
-
 **Which machine learning model best fits the data?**
 
 ## Getting Started
@@ -64,13 +62,13 @@ For classification reports of the non-hypertuned models, please see each individ
 
 #### [Logistic Model](logistic_model.ipynb)
 **Test Scores**
-| Logistic | Accuracy Scores |
+| Logistic - Type | Accuracy Scores |
 | ----------- | -----------: |
 | Non-hypertuned | 0.87 |
 | Hypertuned | 0.89 |
 
 **Hypertuned Model Outcome Precision**
-| Logistic | Precision Scores |
+| Y | Precision Scores |
 | ----------- | -----------: |
 | CANDIDATE | 0.82 | 
 | CONFIRMED | 0.76 | 
@@ -79,13 +77,13 @@ For classification reports of the non-hypertuned models, please see each individ
 
 #### [Random Forest Classifer Model](Forests_Model.ipynb)
 **Test Scores**
-| RFC | Accuracy Scores | 
-| ----------- | -----------: |-
+| RFC - Type | Accuracy Scores | 
+| ----------- | -----------: |
 | Non-hypertuned | 0.90 |
 | Hypertuned | 0.90 | 
 
 #### Hypertuned Model Outcome Precision
-| RFC | Precision Scores |
+| Y | Precision Scores |
 | ----------- | -----------: |
 | CANDIDATE | 0.86 | 
 | CONFIRMED | 0.80 | 
@@ -94,13 +92,13 @@ For classification reports of the non-hypertuned models, please see each individ
 
 #### [Support vector machine classifier Model](SVC_model.ipynb)
 **Test Scores**
-| SVC | Accuracy Scores | 
+| SVC - Type | Accuracy Scores | 
 | ----------- | -----------: |
 | Non-hypertuned | 0.89 | 
 | Hypertuned | 0.88 | 
 
 **Hypertuned Model Outcome Precision**
-| SVC | Precision Scores | 
+| Y | Precision Scores | 
 | ----------- | -----------: |
 | CANDIDATE | 0.80 |
 | CONFIRMED | 0.76 | 
@@ -109,13 +107,13 @@ For classification reports of the non-hypertuned models, please see each individ
 
 #### [K-nearest neighbors classifier Model](KNN_Model.ipynb)
 **Test Scores**
-| KNN | Accuracy Scores | 
+| KNN - Type | Accuracy Scores | 
 | ----------- | -----------: |
 | Non-hypertuned | 0.89 | 
 | Hypertuned | 0.89 | 
 
 **Hypertuned Model Outcome Precision**
-| KNN | Precision Scores | 
+| Y | Precision Scores | 
 | ----------- | -----------: |
 | CANDIDATE | 0.86 | 
 | CONFIRMED | 0.75 |
